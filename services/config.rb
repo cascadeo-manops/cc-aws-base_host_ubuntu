@@ -11,4 +11,8 @@
 ## end
 ##
 
-
+coreo_aws_ec2_instance "${INSTANCE_NAME}" do
+   action :sustain
+   image_id "${IMAGE_ID}"
+   size "${INSTANCE_SIZE}"
+   description "${INSTANCE_DESCRIPTION}"

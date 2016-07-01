@@ -3,5 +3,6 @@
 ## script-order:
 ##   - install_chef.sh
 ##   - run_chef.sh
-
+script-order:
+   - ansible-isntall.sh
 
